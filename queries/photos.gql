@@ -1,0 +1,31 @@
+# Write your query or mutation here
+query AlbumPage{
+  albums{
+    data{
+      id
+      title
+      photos{
+        data{
+          id
+          title
+          url
+          thumbnailUrl
+        }
+      }
+    }
+  }
+}
+
+query Album($id: ID!){
+  album (id: $id){
+    title
+    photos{
+      data{
+        id
+        url
+        thumbnailUrl
+      }
+    }
+  }
+}
+
