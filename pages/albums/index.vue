@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-3xl mb-4 font-bold underline">Photo Album</h1>
+  <h1 class="page-title">Photo Album</h1>
 
   <div>
     <div class="grid grid-cols-4 gap-5 px-4">
